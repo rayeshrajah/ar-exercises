@@ -5,21 +5,21 @@ puts "----------"
 
 # Your code goes below here ...
 
-burnaby = Store.create(
+@store1 = Store.create(
   name: "Burnaby",
   annual_revenue: 300000,
   mens_apparel: true,
   womens_apparel: true
 )
 
-richmond = Store.create(
+@store2 = Store.create(
   name: "Richmond",
   annual_revenue: 1260000,
   mens_apparel: false,
   womens_apparel: true
 )
 
-gas_town = Store.create(
+@store3 = Store.create(
   name: "Gastown",
   annual_revenue: 190000,
   mens_apparel: true,

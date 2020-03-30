@@ -7,21 +7,21 @@ puts "Exercise 4"
 puts "----------"
 
 # Your code goes here ...
-surrey = Store.create(
+@store3 = Store.create(
   name: "Surray",
   annual_revenue: 224000,
   mens_apparel: false,
   womens_apparel: true 
 )
 
-whistler = Store.create(
+@store4 = Store.create(
   name: "Whistler",
   annual_revenue: 1900000,
   mens_apparel: true,
   womens_apparel: false
 )
 
-yaletown = Store.create(
+@store5 = Store.create(
   name: "Yaletown",
   annual_revenue: 430000,
   mens_apparel: true,
